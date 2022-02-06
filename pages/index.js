@@ -37,7 +37,7 @@ export default function Home() {
             id="text"
             value={text}
             onChange={(e) => setText(e.target.value)}
-            placeholder="Enter complicated text"
+            placeholder="Enter complicated text(75 words max)"
             required={true}
           ></textarea>
 
