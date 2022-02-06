@@ -48,7 +48,7 @@ export default function Home() {
           />
         </form>
 
-        <div className={styles.result}>{result}</div>
+        {result && <div className={styles.result}>{result}</div>}
       </main>
     </div>
   );
